@@ -1,0 +1,455 @@
+﻿RELATION                           PARAMETER                 NEW VALUE
+--------                           ---------                 --- -----
+
+/*** Relations for MAIN_ASSEMBLY:
+
+
+Initial Relations
+-----------------
+
+/** Relations
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+/*** recuperation parametres systeme et gabarit
+                                                                                
+PRENOM_DESSINATEUR=DESIGNER_FIRST_
+NAME                               PRENOM_DESSINATEUR        )                  
+NOM_DESSINATEUR=DESIGNER_NAME      NOM_DESSINATEUR           :                  
+DESSINATEUR = NOM_DESSINATEUR + " 
+- " +  PRENOM_DESSINATEUR          DESSINATEUR               : - )              
+DESIGNER=DESSINATEUR               DESIGNER                  : - )              
+SPECIALITE=SPECIALITY              SPECIALITE                - - -              
+                                                                                
+DESCRIPTION_DETAILLEE=DETAILED_DES
+CRIPTION                           DESCRIPTION_DETAILLEE     -                  
+IF DESCRIPTION_DETAILLEE=="-"                                                   
+DESCRIPTION="Designed at INSA Stra
+sbourg"                            DESCRIPTION               Designed at INSA St
+                                                             rasbourg           
+ELSE                                                                            
+DESCRIPTION=DETAILED_DESCRIPTION                                                
+ENDIF                                                                           
+                                                                                
+VERSION_CREATION=DESIGN_RELEASE    VERSION_CREATION          CREO 4.0           
+
+Post-Regeneration Relations
+---------------------------
+
+MASS=MASS:FID_MASS_PROP_1*1000     MASS                      0.000000e+00       
+MASSE=MASS                         MASSE                     0.000000e+00       
+VOLUME=VOLUME:FID_MASS_PROP_1/1000 VOLUME                    0.000000e+00       
+
+Local Parameters
+----------------
+
+Symbolic constant               Current value        Properties                  
+------------------------------- -------------------- --------------------------- 
+DESIGNER_FIRST_NAME             )                    TYPE: String               
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: YES            
+                                                     DESCRIPTION:               
+
+DESIGNER_NAME                   :                    TYPE: String               
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: YES            
+                                                     DESCRIPTION:               
+
+SPECIALITY                      - - -                TYPE: String               
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: YES            
+                                                     DESCRIPTION:               
+
+DETAILED_DESCRIPTION            -                    TYPE: String               
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: YES            
+                                                     DESCRIPTION:               
+
+DESIGNATION                     CREO ASSEMBLY        TYPE: String               
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: YES            
+                                                     DESCRIPTION:               
+
+DESIGN_RELEASE                  CREO 4.0             TYPE: String               
+                                                     SOURCE: User-Defined       
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+VOLUME                          0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+MASS                            0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRENOM_DESSINATEUR              )                    TYPE: String               
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+NOM_DESSINATEUR                 :                    TYPE: String               
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+DESSINATEUR                     : - )                TYPE: String               
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+DESIGNER                        : - )                TYPE: String               
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+SPECIALITE                      - - -                TYPE: String               
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+DESCRIPTION_DETAILLEE           -                    TYPE: String               
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+DESCRIPTION                     Designed at INSA Str TYPE: String               
+                                asbourg              SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+VERSION_CREATION                CREO 4.0             TYPE: String               
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+MASSE                           0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Relation           
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+Alternative Mass Property Parameters
+------------------------------------
+
+Symbolic constant               Current value        Properties                  
+------------------------------- -------------------- --------------------------- 
+PRO_MP_SOURCE                   GEOMETRY             TYPE: String               
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+MP_DENSITY                                           TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_MASS                                      TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_VOLUME                                    TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_AREA                                      TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_COGX                                      TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_COGY                                      TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_COGZ                                      TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IXX                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IYY                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IZZ                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IXZ                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IYZ                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_IXY                                       TYPE: Unknown              
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_CSYS                 DEFAULT              TYPE: String               
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_ALT_INERTIA_ORIGIN       PRO_MP_ALT_CSYS      TYPE: String               
+                                                     SOURCE: Alternate Mass Prop
+                                                     erties                     
+                                                     ACCESS: Full               
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+Reported Mass Property Parameters
+---------------------------------
+
+Symbolic constant               Current value        Properties                  
+------------------------------- -------------------- --------------------------- 
+PRO_MP_MASS                     0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: tonne                
+
+PRO_MP_VOLUME                   0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^3                 
+
+PRO_MP_DENSITY                  0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: tonne/mm^3           
+
+PRO_MP_AREA                     0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2                 
+
+PRO_MP_COGX                     0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm                   
+
+PRO_MP_COGY                     0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm                   
+
+PRO_MP_COGZ                     0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm                   
+
+PRO_MP_IXX                      0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 tonne           
+
+PRO_MP_IYY                      0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 tonne           
+
+PRO_MP_IZZ                      0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 tonne           
+
+PRO_MP_IXZ                      0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 tonne           
+
+PRO_MP_IYZ                      0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 tonne           
+
+PRO_MP_IXY                      0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+                                                     UNIT: mm^2 tonne           
+
+PRO_MP_CSYS                     _MMNS_ASM_DESIGN     TYPE: String               
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_11                   1.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_12                   0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_13                   0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_21                   0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_22                   1.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_23                   0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_31                   0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_32                   0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_33                   1.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_41                   0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_42                   0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_TRF_43                   0.000000e+00         TYPE: Real Number          
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+
+PRO_MP_INERTIA_ORIGIN           PRO_MP_CSYS          TYPE: String               
+                                                     SOURCE: Mass Properties    
+                                                     ACCESS: Locked             
+                                                     DESIGNATED: NO             
+                                                     DESCRIPTION:               
+

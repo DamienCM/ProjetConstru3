@@ -1,0 +1,14 @@
+       Error Diagnostics for Analysis/Assembly Failure
+
+  All position constraints can't be simultaneously satisfied. 
+The following position constraints can't be satisfied:
+
+
+1) Constraint of the first rotation axis in connection Connection_16 in model
+MOTION_SKEL_MAIN can't be satisfied.
+
+
+2) Constraint of the first rotation axis in connection Connection_9 in model
+MOTION_SKEL_MAIN can't be satisfied.
+
+
