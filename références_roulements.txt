@@ -1,10 +1,21 @@
 Arbre 6
 
-Roulement A: 3203 ATN9 (SKF)
-Durée de vie : 276441 heures
-https://www.skf.com/group/products/rolling-bearings/ball-bearings/angular-contact-ball-bearings/double-row-angular-contact-ball-bearings/productid-3203%20ATN9
+Roulement A: 7203 BEP (SKF)
+Durée de vie : 207491 heures
+https://www.skf.com/group/products/rolling-bearings/ball-bearings/angular-contact-ball-bearings/single-row-angular-contact-ball-bearings/productid-7203%20BEP
+
+Roulement B: 6203 (SKF)
+Durée de vie : 132971 heures
+https://www.skf.com/group/products/rolling-bearings/ball-bearings/deep-groove-ball-bearings/productid-6203
 
 
-Roulement B: 1303 EM (SKF)
-Durée de vie : 276503 heures
-https://www.skf.com/group/products/rolling-bearings/ball-bearings/self-aligning-ball-bearings/productid-1303%20EM
+Arbre 7
+
+Roulement A: 3204 A (SKF)
+Durée de vie : 142588 heures
+https://www.skf.com/group/products/rolling-bearings/ball-bearings/angular-contact-ball-bearings/double-row-angular-contact-ball-bearings/productid-3204%20A
+
+Roulement B: 6405 (SKF)
+Durée de vie : 135 000 heures
+https://www.skf.com/group/products/rolling-bearings/ball-bearings/deep-groove-ball-bearings/productid-6405
+
