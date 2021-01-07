@@ -1,7 +1,6 @@
-Assemblage
+Arbre_6
+Arbre_7
 Composant
 composant_telecharge
 Mise_en_plan
-Notices
-Roulements
-STL
+composant_telecharge\Roulements
