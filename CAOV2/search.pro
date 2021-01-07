@@ -4,3 +4,6 @@ Composant
 composant_telecharge
 Mise_en_plan
 composant_telecharge\Roulements
+composant_telecharge\Roulements\Arbre_6
+composant_telecharge\Roulements\Arbre_6\Assemblages
+composant_telecharge\Roulements\Arbre_6\Composants
