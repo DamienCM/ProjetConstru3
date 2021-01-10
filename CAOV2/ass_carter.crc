@@ -1,0 +1,22 @@
+﻿  MODEL ASS_CARTER :
+ 
+
+  1 CIRCULAR REFERENCE LOOPS FOUND
+ 
+
+   LOOP #  1
+
+   Depth of loop is 4
+
+Feature number 73 (EXTRUDE_20, id = 12994) 
+  in model CARTER_BAS refers to:
+
+Feature number 7 (EXTERN COPY GEOM, id = 253) 
+  in model CHAPEAU_ENTREE refers to:
+
+Feature number 79 (ANNOTATION_2, id = 384) 
+  in model CARTER_BAS must follow after:
+
+Feature number 73 (EXTRUDE_20, id = 12994) 
+  in model CARTER_BAS - circle closed.
+
