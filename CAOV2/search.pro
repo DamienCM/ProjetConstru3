@@ -3,8 +3,10 @@ Arbre_7
 Composant
 composant_telecharge
 Mise_en_plan
+Porte_satellite
 composant_telecharge\Arbre_6
 composant_telecharge\Arbre_7
+composant_telecharge\porte_satellite
 composant_telecharge\Roulements
 composant_telecharge\Roulements\Arbre_6
 composant_telecharge\Roulements\Roulements_Arbre_7
