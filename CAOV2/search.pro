@@ -1,12 +1,16 @@
 Arbre_6
 Arbre_7
 Carter
+chapeau_entree
+chapeau_inter
+chapeau_sortie
 Composant
 composant_telecharge
 Mise_en_plan
 Porte_satellite
 composant_telecharge\Arbre_6
 composant_telecharge\Arbre_7
+composant_telecharge\Carter
 composant_telecharge\porte_satellite
 composant_telecharge\Roulements
 composant_telecharge\Roulements\Arbre_6
