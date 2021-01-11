@@ -1,0 +1,31 @@
+﻿  MODEL ftsort :
+ 
+
+  1 CIRCULAR REFERENCE LOOPS FOUND
+ 
+
+   LOOP #  1
+
+   Depth of loop is 7
+
+Feature number 6 (EXTERN COPY GEOM, id = 496) 
+  in model CHAPEAU_ENTREE refers to:
+
+Feature number 106 (ANNOTATION_2, id = 384) 
+  in model CARTER_BAS must follow after:
+
+Feature number 99 (PATTERN_3, id = 15476) 
+  in model CARTER_BAS refers to:
+
+Feature number 90 (SKETCH_3, id = 14795) 
+  in model CARTER_BAS refers to:
+
+Feature number 14 (PATTERN_1, id = 1090) 
+  in model CHAPEAU_ENTREE refers to:
+
+Feature number 8 (EXTRUDE_1, id = 537) 
+  in model CHAPEAU_ENTREE must follow after:
+
+Feature number 6 (EXTERN COPY GEOM, id = 496) 
+  in model CHAPEAU_ENTREE - circle closed.
+
