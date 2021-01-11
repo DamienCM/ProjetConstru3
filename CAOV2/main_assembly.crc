@@ -1,7 +1,7 @@
 ﻿  MODEL MAIN_ASSEMBLY :
  
 
-  5 CIRCULAR REFERENCE LOOPS FOUND
+  6 CIRCULAR REFERENCE LOOPS FOUND
  
 
    LOOP #  1
@@ -17,7 +17,7 @@ Feature number 75 (EXTRUDE_20, id = 12994)
 Feature number 7 (EXTERN COPY GEOM, id = 253) 
   in model CHAPEAU_ENTREE refers to:
 
-Feature number 106 (ANNOTATION_2, id = 384) 
+Feature number 109 (ANNOTATION_2, id = 384) 
   in model CARTER_BAS must follow after:
 
 Feature number 91 (SKETCH_4, id = 14802) 
@@ -46,7 +46,7 @@ Feature number 75 (EXTRUDE_20, id = 12994)
 Feature number 7 (EXTERN COPY GEOM, id = 253) 
   in model CHAPEAU_ENTREE refers to:
 
-Feature number 106 (ANNOTATION_2, id = 384) 
+Feature number 109 (ANNOTATION_2, id = 384) 
   in model CARTER_BAS must follow after:
 
 Feature number 91 (SKETCH_4, id = 14802) 
@@ -69,7 +69,30 @@ Feature number 75 (EXTRUDE_20, id = 12994)
 Feature number 7 (EXTERN COPY GEOM, id = 253) 
   in model CHAPEAU_ENTREE refers to:
 
-Feature number 106 (ANNOTATION_2, id = 384) 
+Feature number 109 (ANNOTATION_2, id = 384) 
+  in model CARTER_BAS must follow after:
+
+Feature number 104 (EXTRUDE_28, id = 15948) 
+  in model CARTER_BAS refers to:
+
+Feature number 89 (EXTRUDE_27, id = 14433) 
+  in model CARTER_BAS must follow after:
+
+Feature number 75 (EXTRUDE_20, id = 12994) 
+  in model CARTER_BAS - circle closed.
+
+
+   LOOP #  4
+
+   Depth of loop is 6
+
+Feature number 75 (EXTRUDE_20, id = 12994) 
+  in model CARTER_BAS refers to:
+
+Feature number 7 (EXTERN COPY GEOM, id = 253) 
+  in model CHAPEAU_ENTREE refers to:
+
+Feature number 109 (ANNOTATION_2, id = 384) 
   in model CARTER_BAS must follow after:
 
 Feature number 99 (PATTERN_3, id = 15476) 
@@ -82,7 +105,7 @@ Feature number 75 (EXTRUDE_20, id = 12994)
   in model CARTER_BAS - circle closed.
 
 
-   LOOP #  4
+   LOOP #  5
 
    Depth of loop is 4
 
@@ -92,21 +115,21 @@ Feature number 75 (EXTRUDE_20, id = 12994)
 Feature number 7 (EXTERN COPY GEOM, id = 253) 
   in model CHAPEAU_ENTREE refers to:
 
-Feature number 106 (ANNOTATION_2, id = 384) 
+Feature number 109 (ANNOTATION_2, id = 384) 
   in model CARTER_BAS must follow after:
 
 Feature number 75 (EXTRUDE_20, id = 12994) 
   in model CARTER_BAS - circle closed.
 
 
-   LOOP #  5
+   LOOP #  6
 
    Depth of loop is 6
 
 Feature number 7 (EXTERN COPY GEOM, id = 253) 
   in model CHAPEAU_ENTREE refers to:
 
-Feature number 106 (ANNOTATION_2, id = 384) 
+Feature number 109 (ANNOTATION_2, id = 384) 
   in model CARTER_BAS must follow after:
 
 Feature number 91 (SKETCH_4, id = 14802) 
